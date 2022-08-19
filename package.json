@@ -1,0 +1,39 @@
+{
+  "name": "windsplit",
+  "version": "0.1.0",
+  "description": "Small utility to format long classnames with template literals.",
+  "author": "DevPlayhouse",
+  "contributors": [
+    "Putu Rades Pratama (https://github.com/radespratama)"
+  ],
+  "license": "MIT",
+  "main": "dist/windsplit.cjs.js",
+  "module": "dist/windsplit.esm.js",
+  "browser": "dist/windsplit.umd.js",
+  "typings": "dist/main.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "pretest": "npm run build"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radespratama/windsplit.git"
+  },
+  "keywords": [
+    "CSS",
+    "classnames",
+    "Tailwind CSS"
+  ],
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "jest": "^28.1.3",
+    "rollup": "^2.78.1"
+  }
+}
