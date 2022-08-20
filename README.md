@@ -36,9 +36,9 @@ Using the `wtl` util formats classnames so they are rendered in a more standard 
 Example:
 
 ```javascript
-<p class="tw-sr-only focus:tw-not-sr-only tw-bg-teal-darker tw-text-white tw-block tw-text-sm tw-l-0">
-  Hello world
-</p>
+<main class="flex-wrap flex-grow max-w-screen-lg mx-auto px-4">
+  Good morning 🌟
+</main>
 ```
 
 # Installation
